@@ -9,20 +9,21 @@
 .btn-primary {
   border-radius: 8px;
   background: #e55473;
-  /* display: inline-flex; */
-  padding: 20px 43px;
-  /* align-items: flex-start; */
-  /* gap: 10px; */
+  padding: 20px 40px;
   border: 0;
   color: #fff;
   font-size: 20px;
   font-weight: 700;
 }
 
+.text-primary {
+  color: #e55473;
+}
+
 /* header styles */
 
 header,
-.hot-deal-container {
+.hot-deal-section {
   background: rgba(229, 84, 115, 0.1);
   margin-bottom: 130px;
 }
@@ -55,7 +56,7 @@ header,
 
 /* main section styles */
 
-.hot-deal-container {
+.hot-deal-section {
   display: flex;
   padding: 100px 430px 100px 430px;
   gap: 200px;
@@ -83,7 +84,7 @@ header,
   padding-bottom: 30px;
 }
 
-/* insta styles */
+/* instagram styles */
 
 .insta-container {
   text-align: center;
@@ -95,11 +96,78 @@ header,
 
 /* images styles */
 
-.image-container {
+.image-section {
   text-align: center;
   margin-top: 50px;
 }
 
 .images {
-  margin-right: 25px;
+  margin-right: 18px;
+}
+
+/* subscribe styles */
+
+.subscribe-section {
+  background-image: url("../images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 450px;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.subscribe-title {
+  padding-top: 120px;
+  padding-bottom: 16px;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.subscribe-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 45px;
+}
+
+#email {
+  border-radius: 8px;
+  background: #fff;
+  width: 600px;
+  height: 40px;
+  border: 0;
+  padding: 20px 20px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+/* footer styles */
+
+footer {
+  background-color: #111010;
+  padding: 130px 0;
+  text-align: center;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  padding-bottom: 25px;
+}
+
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0 650px 30px 650px;  
+}
+
+#copy-right {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;  
 }
