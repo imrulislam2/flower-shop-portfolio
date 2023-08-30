@@ -21,8 +21,10 @@
 
 /* header styles */
 
-header {
+header,
+.hot-deal-container {
   background: rgba(229, 84, 115, 0.1);
+  margin-bottom: 130px;
 }
 
 .banner {
@@ -49,4 +51,55 @@ header {
 .profile-pic {
   width: 635px;
   height: 800px;
+}
+
+/* main section styles */
+
+.hot-deal-container {
+  display: flex;
+  padding: 100px 430px 100px 430px;
+  gap: 200px;
+  margin-bottom: 130px;
+}
+
+.hot-deal-content {
+  text-align: center;
+  padding-top: 130px;
+}
+
+.hot-deal-title,
+.insta-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.hot-deal-description,
+.insta-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+/* insta styles */
+
+.insta-container {
+  text-align: center;
+}
+
+.insta-description {
+  padding: 0 660px;
+}
+
+/* images styles */
+
+.image-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.images {
+  margin-right: 25px;
 }
